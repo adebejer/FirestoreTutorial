@@ -214,6 +214,13 @@ const styles = StyleSheet.create({
 
 ###### Your app should now be able to run as intended to.
 ###### You may input a username and email and press submit for that data to be added to your database.
+
+
+
+![image](https://user-images.githubusercontent.com/81165469/210018793-22c6be3c-21e9-4244-b978-896d73fa5437.png)
+
+
+
 ###### To check if this is true, check the console for the following message
 
  `LOG  data submitted`
