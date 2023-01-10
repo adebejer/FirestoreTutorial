@@ -122,6 +122,10 @@ const firebaseConfig = {
 
 `cd firestoreTest`
 
+###### And finally install firebase
+
+`npm install firebase`
+
 ###### Open your app folder in your IDE of choice. For this tutorial, we have used VSCode.
 
 ###### Create a folder within this directory called "src", and create a file within it called "config.jsx"
@@ -169,7 +173,7 @@ export default function App() {
           email: email,
         }).then(() => { 
           // Data saved successfully!
-          console.log('data submitted');  
+          alert('Data Saved Successfully!');  
     
         }).catch((error) => {
               // The write failed...
@@ -220,10 +224,6 @@ const styles = StyleSheet.create({
 ![image](https://user-images.githubusercontent.com/81165469/210018793-22c6be3c-21e9-4244-b978-896d73fa5437.png)
 
 
-
-###### To check if this is true, check the console for the following message
-
- `LOG  data submitted`
  
  **Simply check the Panel view in the Firebase console for your newly entered data and you are ready.**
 
